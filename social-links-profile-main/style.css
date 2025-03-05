@@ -1,0 +1,91 @@
+:root{
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+}
+
+html{
+    background-color: var(--grey-900);
+    color: var(--white);
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    min-height: 100%;
+    display: grid;
+    place-items: center;
+    margin: 0;
+}
+
+
+
+div{
+    background-color: var(--grey-800);
+    max-width: 500px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+div img{
+    border-radius: 50%;
+    padding-top: 20px;
+    width: 150px;
+    display: block;
+}
+
+div h1{
+    font-size: 30px;
+    margin: 0;
+}
+
+div h2{
+    font-size: 15px;
+    color: var(--green);
+    margin-top: 5px;
+}
+
+div h3{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    padding-bottom: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    background-color: var(--grey-700);
+    color: var(--white);
+    border-radius: 10px;
+    display: flex;
+    padding: 15px;
+    margin: 10px;
+    width: 100%;
+    justify-content: center;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background-color: var(--green);
+    color: var(--grey-900);
+    
+}
+
+footer {
+    margin: auto 0;
+    padding-top: 20px;
+}
+
+footer a{
+    color: var(--green);
+}
